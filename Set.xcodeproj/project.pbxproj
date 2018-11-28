@@ -12,6 +12,10 @@
 		3F29FADC21ADCFB600406DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F29FADA21ADCFB600406DDB /* Main.storyboard */; };
 		3F29FADE21ADCFB800406DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F29FADD21ADCFB800406DDB /* Assets.xcassets */; };
 		3F29FAE121ADCFB800406DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F29FADF21ADCFB800406DDB /* LaunchScreen.storyboard */; };
+		3F29FAEE21ADDD4F00406DDB /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAED21ADDD4F00406DDB /* BorderButton.swift */; };
+		3F29FAF021ADFF8400406DDB /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAEF21ADFF8400406DDB /* SetCard.swift */; };
+		3F29FAF221AE0B5800406DDB /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAF121AE0B5800406DDB /* SetCardDeck.swift */; };
+		3F29FAF421AE0E8400406DDB /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAF321AE0E8300406DDB /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3F29FADD21ADCFB800406DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F29FAE021ADCFB800406DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F29FAE221ADCFB800406DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F29FAED21ADDD4F00406DDB /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		3F29FAEF21ADFF8400406DDB /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		3F29FAF121AE0B5800406DDB /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
+		3F29FAF321AE0E8300406DDB /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,34 @@
 		3F29FAD521ADCFB600406DDB /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				3F29FAD621ADCFB600406DDB /* AppDelegate.swift */,
 				3F29FAD821ADCFB600406DDB /* ViewController.swift */,
 				3F29FADA21ADCFB600406DDB /* Main.storyboard */,
+				3F29FAED21ADDD4F00406DDB /* BorderButton.swift */,
+				3F29FAF521AE0E8D00406DDB /* Model */,
 				3F29FADD21ADCFB800406DDB /* Assets.xcassets */,
-				3F29FADF21ADCFB800406DDB /* LaunchScreen.storyboard */,
+				3F29FAE821ADCFCB00406DDB /* Supporting FIles */,
 				3F29FAE221ADCFB800406DDB /* Info.plist */,
 			);
 			path = Set;
+			sourceTree = "<group>";
+		};
+		3F29FAE821ADCFCB00406DDB /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				3F29FAD621ADCFB600406DDB /* AppDelegate.swift */,
+				3F29FADF21ADCFB800406DDB /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		3F29FAF521AE0E8D00406DDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F29FAEF21ADFF8400406DDB /* SetCard.swift */,
+				3F29FAF121AE0B5800406DDB /* SetCardDeck.swift */,
+				3F29FAF321AE0E8300406DDB /* SetGame.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F29FAF221AE0B5800406DDB /* SetCardDeck.swift in Sources */,
 				3F29FAD921ADCFB600406DDB /* ViewController.swift in Sources */,
 				3F29FAD721ADCFB600406DDB /* AppDelegate.swift in Sources */,
+				3F29FAF021ADFF8400406DDB /* SetCard.swift in Sources */,
+				3F29FAF421AE0E8400406DDB /* SetGame.swift in Sources */,
+				3F29FAEE21ADDD4F00406DDB /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
