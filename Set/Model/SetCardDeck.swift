@@ -15,7 +15,7 @@ struct SetCarDeck {
             for color in SetCard.Variant.allCases{
                 for shape in SetCard.Variant.allCases{
                     for fill in SetCard.Variant.allCases{
-                        cards.append(SetCard(number: number,color: color, shape: shape, fill: fill))
+                        cards.append(SetCard(number: number, color: color, shape: shape, fill: fill))
                     }
                 }
             }

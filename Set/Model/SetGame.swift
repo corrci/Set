@@ -69,6 +69,7 @@ struct SetGame {
     }
     
     mutating func chooseCard(at index: Int){
+        assert(cardsOnTable.indices.contains(index),"SetGame.chooseCard(at: \(index)) : Choosen index out of range")
         let cardChoosen = cardsOnTable[index]
         if !cardsRemoved.contains(cardChoosen) && !cardsTryMatched.contains(cardChoosen){
             if isSet != nil{

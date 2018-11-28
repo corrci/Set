@@ -64,10 +64,8 @@
 		3F29FAD521ADCFB600406DDB /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				3F29FAD821ADCFB600406DDB /* ViewController.swift */,
 				3F29FADA21ADCFB600406DDB /* Main.storyboard */,
-				3F29FAED21ADDD4F00406DDB /* BorderButton.swift */,
-				3FD996BE21AEFB80003C3233 /* SetCardButton.swift */,
+				3FD996C021AF0047003C3233 /* Controller */,
 				3F29FAF521AE0E8D00406DDB /* Model */,
 				3F29FADD21ADCFB800406DDB /* Assets.xcassets */,
 				3F29FAE821ADCFCB00406DDB /* Supporting FIles */,
@@ -93,6 +91,16 @@
 				3F29FAF321AE0E8300406DDB /* SetGame.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3FD996C021AF0047003C3233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F29FAD821ADCFB600406DDB /* ViewController.swift */,
+				3F29FAED21ADDD4F00406DDB /* BorderButton.swift */,
+				3FD996BE21AEFB80003C3233 /* SetCardButton.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
