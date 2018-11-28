@@ -16,7 +16,7 @@ struct SetCard: Equatable, CustomStringConvertible {
     let shape: Variant
     let fill: Variant
     
-    enum Variant: Int, CustomStringConvertible {
+    enum Variant: Int, CaseIterable, CustomStringConvertible {
         var description: String { return String(self.rawValue)}
         var idx: Int { return (self.rawValue - 1) }
         

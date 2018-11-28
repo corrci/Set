@@ -16,6 +16,7 @@
 		3F29FAF021ADFF8400406DDB /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAEF21ADFF8400406DDB /* SetCard.swift */; };
 		3F29FAF221AE0B5800406DDB /* SetCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAF121AE0B5800406DDB /* SetCardDeck.swift */; };
 		3F29FAF421AE0E8400406DDB /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F29FAF321AE0E8300406DDB /* SetGame.swift */; };
+		3FD996BF21AEFB80003C3233 /* SetCardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD996BE21AEFB80003C3233 /* SetCardButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3F29FAEF21ADFF8400406DDB /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
 		3F29FAF121AE0B5800406DDB /* SetCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardDeck.swift; sourceTree = "<group>"; };
 		3F29FAF321AE0E8300406DDB /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		3FD996BE21AEFB80003C3233 /* SetCardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3F29FAD821ADCFB600406DDB /* ViewController.swift */,
 				3F29FADA21ADCFB600406DDB /* Main.storyboard */,
 				3F29FAED21ADDD4F00406DDB /* BorderButton.swift */,
+				3FD996BE21AEFB80003C3233 /* SetCardButton.swift */,
 				3F29FAF521AE0E8D00406DDB /* Model */,
 				3F29FADD21ADCFB800406DDB /* Assets.xcassets */,
 				3F29FAE821ADCFCB00406DDB /* Supporting FIles */,
@@ -168,6 +171,7 @@
 				3F29FAD721ADCFB600406DDB /* AppDelegate.swift in Sources */,
 				3F29FAF021ADFF8400406DDB /* SetCard.swift in Sources */,
 				3F29FAF421AE0E8400406DDB /* SetGame.swift in Sources */,
+				3FD996BF21AEFB80003C3233 /* SetCardButton.swift in Sources */,
 				3F29FAEE21ADDD4F00406DDB /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
